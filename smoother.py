@@ -23,6 +23,10 @@ It should be possible to better approximate the values of the original signal.
 But this is only achievable if we know the "shape" of the original signal e.g.
 the characteristics of a sin wave are well known but if we were trying to
 interpolate the values of CPU usage, we don't know what pattern it will take.
+
+I pinched some code from this example to get the animation working:
+https://towardsdatascience.com/plotting-live-data-with-matplotlib-d871fac7500b
+
 """
 
 # Library imports.
